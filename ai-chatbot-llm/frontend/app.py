@@ -29,7 +29,7 @@ if user_input:
     # Send request to backend
     try:
         response = requests.post(
-            "http://127.0.0.1:8000/chat",
+            "https://learnmate-ai-chatbot.onrender.com/chat",
             json={"message": user_input}
         )
 
